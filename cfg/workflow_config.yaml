@@ -1,0 +1,30 @@
+DATA:
+  DATA_PATH: data/volatility_m_ticks_features.csv
+  FEATURES:
+  - t
+  - price
+  - log_returns
+  - price_lag_1_hour
+  - price_lag_2_hour
+  - price_lag_3_hour
+  - price_lag_4_hour
+  - volatility_lag_1_hour
+  - volatility_lag_2_hour
+  - volatility_lag_3_hour
+  - volatility_lag_4_hour
+  - log_return_lag_1_hour
+  - log_return_lag_2_hour
+  - log_return_lag_3_hour
+  - log_return_lag_4_hour
+  SPLIT_TYPE: TimeSeries
+  TARGET: target
+PREPROCESSING:
+  FEATURES:
+  - StandardScaler
+  TARGET:
+  - StandardScaler
+RESULTS:
+  OUTPUT_DIR: runs
+  SAVE: true
+  VERBOSE: 1
+SEED: 1337
