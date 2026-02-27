@@ -8,7 +8,7 @@ To isolate this, I construct a synthetic limit order book populated entirely by 
 
 Despite this, both machine learning models and classical econometric time-series approaches detect statistically significant predictive structure. This suggests that structured dynamics can emerge endogenously from the mechanics of the order book itself.
 
-A detailed performance analysis and statistical validation are available [here](misc\report.md).
+A detailed performance analysis and statistical validation are available [here](misc/report.md).
 
 ## Project Structure
 ```bash
