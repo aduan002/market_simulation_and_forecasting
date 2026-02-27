@@ -21,7 +21,7 @@ Decision Trees performed worse and showed higher variance, showing instability t
 
 The Persistent model is a baseline forecasting past hour volatility as next-hour volatility, which ranks the lowest, showing a lack of strong autocorrelation in the volatitliy of randomized agents, yet it is still predictable by ML models.
 
-### Forecasting Next-Hour Log Return
+## Forecasting Next-Hour Log Return
 
 | Algorithm          | Mean     | Std      | Wins | Beats                                   | Rank |
 |--------------------|----------|----------|------|------------------------------------------|------|
